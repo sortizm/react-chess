@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-chess/static/css/main.7a32046e.chunk.css",
+    "main.js": "/react-chess/static/js/main.756e020a.chunk.js",
+    "main.js.map": "/react-chess/static/js/main.756e020a.chunk.js.map",
+    "runtime-main.js": "/react-chess/static/js/runtime-main.402b2b0c.js",
+    "runtime-main.js.map": "/react-chess/static/js/runtime-main.402b2b0c.js.map",
+    "static/js/2.518e87eb.chunk.js": "/react-chess/static/js/2.518e87eb.chunk.js",
+    "static/js/2.518e87eb.chunk.js.map": "/react-chess/static/js/2.518e87eb.chunk.js.map",
+    "index.html": "/react-chess/index.html",
+    "precache-manifest.7556ab6dc3ec5fdcdc96fccd807254fb.js": "/react-chess/precache-manifest.7556ab6dc3ec5fdcdc96fccd807254fb.js",
+    "service-worker.js": "/react-chess/service-worker.js",
+    "static/css/main.7a32046e.chunk.css.map": "/react-chess/static/css/main.7a32046e.chunk.css.map",
+    "static/js/2.518e87eb.chunk.js.LICENSE": "/react-chess/static/js/2.518e87eb.chunk.js.LICENSE",
+    "static/media/black_bishop.svg": "/react-chess/static/media/black_bishop.1f3b8d1a.svg",
+    "static/media/black_king.svg": "/react-chess/static/media/black_king.66e1bcad.svg",
+    "static/media/black_knight.svg": "/react-chess/static/media/black_knight.d39f1d02.svg",
+    "static/media/black_pawn.svg": "/react-chess/static/media/black_pawn.1c52d8c4.svg",
+    "static/media/black_queen.svg": "/react-chess/static/media/black_queen.7b3e33e4.svg",
+    "static/media/black_rook.svg": "/react-chess/static/media/black_rook.96872a66.svg",
+    "static/media/white_bishop.svg": "/react-chess/static/media/white_bishop.09004fd2.svg",
+    "static/media/white_king.svg": "/react-chess/static/media/white_king.250510ff.svg",
+    "static/media/white_knight.svg": "/react-chess/static/media/white_knight.e6294efe.svg",
+    "static/media/white_pawn.svg": "/react-chess/static/media/white_pawn.d69014fb.svg",
+    "static/media/white_queen.svg": "/react-chess/static/media/white_queen.4320a2dd.svg",
+    "static/media/white_rook.svg": "/react-chess/static/media/white_rook.095b1a06.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.402b2b0c.js",
+    "static/js/2.518e87eb.chunk.js",
+    "static/css/main.7a32046e.chunk.css",
+    "static/js/main.756e020a.chunk.js"
+  ]
+}
