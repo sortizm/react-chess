@@ -1,0 +1,13 @@
+.black-cell {
+    background-color: #3E3E3E;
+}
+
+.white-cell {
+    background-color: white;
+}
+
+.cell {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+}
