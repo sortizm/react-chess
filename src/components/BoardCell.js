@@ -13,16 +13,32 @@ import WhiteBishop from '../images/white_bishop.svg'
 import WhiteKnight from '../images/white_knight.svg'
 import WhiteRook from '../images/white_rook.svg'
 
-import './BoardCell.css';
+import './BoardCell.scss';
 
-const BoardCell = ({pieces, row, col}) => {
+const BoardCell = ({pieces, row, col, selected, setSelected}) => {
 
-    const piecesInCell = pieces.filter(p => p.row === row && p.col === col);
-    const cellStyle = "cell " + (row%2 === col%2 ? 'black-cell' : 'white-cell');
+    const pieceInCell = pieces.filter(p => p.row === row && p.col === col)[0];
 
+    const isSelected = () => {
+        return selected[0] === row && selected[1] === col;
+    };
+
+    const cellStyle = "cell " + (row%2 === col%2 ? 'black-cell' : 'white-cell') +
+        (isSelected()? ' highlighted' : '');
+
+    const onSelected = () => {
+        if (isSelected()) {
+            setSelected([]);
+        } else {
+            setSelected([row, col]);
+        }
+    };
+
+    const imageInCell = pieceInCell ? <img key={pieceInCell.key} src={pieceInCell.type.image}/>
+        : <img/>;
     return (
-        <div className={cellStyle}>
-            {piecesInCell.map(piece => <img key={piece.key} src={piece.type.image}/>)}
+        <div className={cellStyle} onClick={onSelected}>
+            {imageInCell}
         </div>
     )
 };
