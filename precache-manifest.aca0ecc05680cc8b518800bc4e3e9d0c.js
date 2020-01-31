@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57f525ea45426d8f5bc620206cd2e39c",
+    "revision": "6e223e02183763bb079465ff5a8ed672",
     "url": "/react-chess/index.html"
   },
   {
-    "revision": "15604f941ae832f1419f",
-    "url": "/react-chess/static/css/main.b9ee7a39.chunk.css"
+    "revision": "e2b689bf274352ca9579",
+    "url": "/react-chess/static/css/main.efbfafe9.chunk.css"
   },
   {
-    "revision": "9b74f48c5f70d1f3a7ff",
-    "url": "/react-chess/static/js/2.a7df616e.chunk.js"
+    "revision": "38cb0ad6da38fed04658",
+    "url": "/react-chess/static/js/2.76256397.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/react-chess/static/js/2.a7df616e.chunk.js.LICENSE"
+    "url": "/react-chess/static/js/2.76256397.chunk.js.LICENSE"
   },
   {
-    "revision": "15604f941ae832f1419f",
-    "url": "/react-chess/static/js/main.cd0ef2f1.chunk.js"
+    "revision": "e2b689bf274352ca9579",
+    "url": "/react-chess/static/js/main.0f19112a.chunk.js"
   },
   {
     "revision": "32a8550c4d0ec353f0d5",
